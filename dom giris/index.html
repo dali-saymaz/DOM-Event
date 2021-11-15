@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <button id="mybutton" onclick="alert('button 1 tiklandi')">tikla beni 1</button>
+    <button id="mybutton2">tikla beni 2</button>
+    <button id="mybutton3" onclick="buttintiklanmaolayi()">tikla beni 3</button>
+    <button id="mybutton3" onmouseover="buttintiklanmaolayi()">tikla beni 4</button>
+
+
+    <script>
+        document.getElementById("mybutton2").onclick = function () { alert("button 2 tiklandi") }
+
+
+        function buttintiklanmaolayi() { alert("button 3 tiklandi") }
+
+    </script>
+
+</body>
+
+</html>
