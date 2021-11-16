@@ -1,14 +1,14 @@
 
 //document.getElementsByTagName()
-let val;
-val = document.getElementsByTagName('li');
-console.log(val)
-val = document.getElementById('task-list');
-console.log(val)
-val = val.getElementsByTagName('a');
-console.log(val)
+let dali;
+dali = document.getElementsByTagName('li');
+console.log(dali)
+dali = document.getElementById('task-list');
+console.log(dali)
+dali = dali.getElementsByTagName('a');
+console.log(dali)
 
 
 // document.querySelectorAll()
-val = document.querySelectorAll('li');
-console.log(val)
+dali = document.querySelectorAll('li');
+console.log(dali)

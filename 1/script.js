@@ -1,4 +1,4 @@
-// What You Will Learn
+// // What You Will Learn
 // // 1 How to change the content of HTML elements
 // let dali;
 
@@ -8,11 +8,13 @@
 // console.log(dali);
 // dali = document.getElementById('lorem1').className;
 // console.log(dali);
+// dali=document.getElementsByClassName('text')
+// console.log(dali);
 
-// // dali = document.getElementById('lorem1');
-// // //dali = dali.id;
-// // dali = dali.className;
-// // console.log(dali);
+// dali = document.getElementById('lorem1');
+// //dali = dali.id;
+// dali = dali.className;
+// console.log(dali);
 
 
 // // 2 How to change the style (CSS) of HTML elements
@@ -43,13 +45,15 @@
 // document.querySelector('p:nth-child(2)').style.color='yellow';
 // document.querySelector('p:nth-child(3)').textContent='textcontent ile degistirdim';
 // document.querySelector('p:nth-child(4)').textContent='textcontent ile degistirdim';
-// // document.querySelectorAll('p').style.color='red';//colu secim yapar butun pleri secer
-// //document.querySelectorAll('p').style.fontSize='40px';//colu secim yapar butun pleri secer
+
+//console.log(document.querySelectorAll('.text'));
+
 
 
 // 6 className classList olayi
 
 // document.getElementById('lorem1').className='eklenenclassname2';
+// console.log(lorem1);
 // document.getElementById('lorem2').classList.add('eklenenclassname');
 // console.log(lorem2);
 
